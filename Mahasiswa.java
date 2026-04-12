@@ -6,6 +6,8 @@ public class Mahasiswa {
     public String jurusan;
     public int angkatan;
 
+    public Mahasiswa() {
+    }
     public Mahasiswa(String nim, String nama, String jurusan, int angkatan) {
         this.nim = nim;
         this.nama = nama;

@@ -5,6 +5,8 @@ public class Matakuliah {
     public String namaMK;
     public int sks;
 
+    public Matakuliah() {
+    }
     public Matakuliah(String kodeMK, String namaMK, int sks) {
         this.kodeMK = kodeMK;
         this.namaMK = namaMK;
